@@ -65,7 +65,7 @@ h1 {
 /* Your code goes here for step 2 */
 .card img:hover{
     opacity: 1;
-    animation: hover_img 0.5s;
+    animation: hover_img 2s;
 }
 
 @keyframes hover_img {
@@ -73,6 +73,6 @@ h1 {
         opacity:0;
     }
     100% {
-        opacity: 1;
+        opacity:1;
     }
 }
